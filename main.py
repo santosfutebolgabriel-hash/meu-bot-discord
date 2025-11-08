@@ -17,5 +17,5 @@ async def enviar_mensagem():
     if canal:
         await canal.send("Oi! Estou online e funcionando automaticamente 😄")
 
-# Pega o token da variável de ambiente
+# 🚀 Inicia o bot com o token vindo da variável de ambiente
 bot.run(os.getenv("TOKEN"))
